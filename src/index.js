@@ -8,7 +8,7 @@ module.exports = function getZerosCount(number, base) {
           if (base1 % i == 0) 
           {
               base1 = base1/ i;
-          // don't know
+              dividers[i] = dividers[i] ? dividers[i] + 1 : 1;
           }
               
             else 
